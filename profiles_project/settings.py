@@ -30,6 +30,9 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+#Below last 3 lines added for enabling apps required for django rest framework and auth
+#The profiles_api which is the app we created also needs to be added here
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
