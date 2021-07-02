@@ -33,3 +33,8 @@ Start the django App
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
+
+Create a Migrations file for DB models
+```
+python manage.py makemigrations profiles_api
+```
