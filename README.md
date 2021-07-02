@@ -38,3 +38,13 @@ Create a Migrations file for DB models
 ```
 python manage.py makemigrations profiles_api
 ```
+
+Run a migration
+```
+python manage.py migrate
+```
+
+Create a SuperUser
+```
+python manage.py createsuperuser
+```
